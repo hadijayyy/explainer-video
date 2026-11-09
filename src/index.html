@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Notion: launch film (concept)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="mb3" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="0 0"/></filter>
+    <filter id="mb4" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="0 0"/></filter>
+    <filter id="mb6" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="0 0"/></filter>
+    <filter id="mb7" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="0 0"/></filter>
+    <symbol id="arrow" viewBox="0 0 28 34"><path d="M3 2 L3 27 L9.5 21 L13.8 31 L18 29.2 L13.8 19.6 L22.5 19.6 Z" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></symbol>
+    <symbol id="check" viewBox="0 0 18 18"><path d="M3.5 9.5 L7.3 13 L14.5 5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<div id="stage">
+  <div id="grid"></div>
+
+  <!-- ============ S1: HOOK ============ -->
+  <section class="scene" id="s1"><div class="cam" id="s1cam">
+    <div class="clut c" id="c1" style="left:150px;top:100px;width:390px;height:260px;padding:24px 26px">
+      <div style="display:flex;align-items:center;gap:12px;font-size:20px;font-weight:650;color:#37352f">
+        <div style="width:30px;height:36px;border-radius:4px;background:#5b8def"></div>Q3 planning (final).docx
+      </div>
+      <div class="ln" style="width:92%;margin-top:22px"></div><div class="ln" style="width:80%"></div><div class="ln" style="width:86%"></div><div class="ln" style="width:55%"></div><div class="ln" style="width:70%"></div>
+    </div>
+    <div class="clut c" id="c6" style="left:690px;top:64px;width:390px;height:230px;padding:22px 24px">
+      <div style="display:flex;align-items:center;gap:12px;font-size:20px;font-weight:650;color:#37352f">
+        <div style="width:30px;height:36px;border-radius:4px;background:#3fa66b"></div>Budget_v7.xlsx
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:20px">
+        <div class="ln" style="margin:0;height:22px;background:#d4ecdc"></div><div class="ln" style="margin:0;height:22px;background:#d4ecdc"></div><div class="ln" style="margin:0;height:22px;background:#d4ecdc"></div><div class="ln" style="margin:0;height:22px;background:#d4ecdc"></div>
+        <div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div>
+        <div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div>
+        <div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div><div class="ln" style="margin:0;height:22px"></div>
+      </div>
+    </div>
+    <div class="clut c" id="c2" style="left:1310px;top:690px;width:430px;height:270px;padding:22px">
+      <div style="font-size:20px;font-weight:650;color:#37352f;margin-bottom:16px">Sprint board (old)</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+        <div><div class="ln" style="height:46px;border-radius:8px;background:#fde3cf;margin:0 0 10px"></div><div class="ln" style="height:46px;border-radius:8px;background:#fde3cf;margin:0 0 10px"></div><div class="ln" style="height:46px;border-radius:8px;background:#fde3cf;margin:0"></div></div>
+        <div><div class="ln" style="height:46px;border-radius:8px;background:#d6e7f5;margin:0 0 10px"></div><div class="ln" style="height:46px;border-radius:8px;background:#d6e7f5;margin:0"></div></div>
+        <div><div class="ln" style="height:46px;border-radius:8px;background:#dbeddb;margin:0"></div></div>
+      </div>
+    </div>
+    <div class="clut c" id="c4" style="left:160px;top:680px;width:340px;height:270px;padding:20px 22px">
+      <div style="display:flex;justify-content:space-between;font-size:20px;font-weight:650;color:#37352f"><span>October</span><span style="color:#a5a29a">‹ ›</span></div>
+      <div id="calgrid" style="display:grid;grid-template-columns:repeat(7,1fr);gap:7px;margin-top:16px"></div>
+    </div>
+    <div class="sticky c abs" id="c3" style="left:1480px;top:100px;width:260px;height:250px;padding:30px 28px;font-size:30px;line-height:1.3;font-style:italic;font-weight:500;color:#5a4a00">
+      ask Sam about the launch date??<br><span style="font-size:24px">→ where are the notes</span>
+    </div>
+    <div class="clut c" id="c5" style="left:600px;top:810px;width:420px;height:118px;padding:20px 22px;display:flex;gap:16px;align-items:center">
+      <div class="ini" style="background:#e07a5f;width:52px;height:52px;font-size:20px;flex:none">JK</div>
+      <div><div style="font-size:18px;color:#a5a29a;font-weight:600">Jordan · 2:14 PM</div><div style="font-size:24px;font-weight:550;color:#37352f">where's the latest spec??</div></div>
+    </div>
+    <div class="filechip c" id="c7" style="left:1030px;top:880px"><div class="fi" style="background:#e5534b"></div>Roadmap_FINAL_v3.pdf</div>
+    <div class="filechip c" id="c8" style="left:1560px;top:470px"><span class="emoji" style="font-size:26px">🔔</span>47 unread</div>
+    <div class="filechip c" id="c9" style="left:120px;top:470px"><span class="emoji" style="font-size:26px">🗂️</span>notes (2).txt</div>
+
+    <div id="hook" class="abs" style="left:0;right:0;top:470px;height:150px">
+      <div class="h1 h-xl center abs hk" style="left:0;right:0;top:0">Docs in one app.</div>
+      <div class="h1 h-xl center abs hk" style="left:0;right:0;top:0">Tasks in another.</div>
+      <div class="h1 h-xl center abs hk" style="left:0;right:0;top:0">Notes… everywhere.</div>
+    </div>
+  </div></section>
+
+  <!-- ============ S2: BRAND ============ -->
+  <section class="scene" id="s2"><div class="cam" id="s2cam">
+    <div id="ring2" class="abs" style="left:810px;top:390px;width:300px;height:300px;border-radius:50%;border:4px solid rgba(25,25,25,.18)"></div>
+    <div id="lockup" class="abs" style="left:0;right:0;top:468px;height:144px;display:flex;justify-content:center;align-items:center">
+      <img id="mark" src="../assets/logos/notion_mark_current.svg" style="width:140px;height:144px;display:block">
+      <div id="letWrap" style="width:0;overflow:hidden;height:90px;display:flex;align-items:center"><img src="../assets/logos/notion_letters.svg" style="height:76px;width:287px;margin-left:30px;flex:none"></div>
+    </div>
+    <div id="s2head" class="abs" style="left:0;right:0;top:372px">
+      <div class="h1 h-l center" id="s2l1">Where teams and</div>
+      <div class="h1 h-l center" id="s2l2" style="margin-top:14px">
+        <span class="w"><span class="wi">agents</span></span>
+        <span class="w" style="vertical-align:top"><span class="wi">
+          <span id="pill" style="display:inline-flex;align-items:center;height:1.2em;border-radius:999px;background:#d3e5f8;vertical-align:-0.06em;overflow:hidden;position:relative;margin:0 0.08em">
+            <span style="position:absolute;left:0.3em;top:50%;width:0.3em;height:0.3em;margin-top:-0.15em;border-radius:50%;background:#2383e2"></span>
+            <span id="pillWords" style="position:absolute;left:0.78em;top:0;height:1.2em">
+              <span class="pw" style="display:block;height:1.2em;line-height:1.2em">Write</span>
+              <span class="pw" style="display:block;height:1.2em;line-height:1.2em">Plan</span>
+              <span class="pw" style="display:block;height:1.2em;line-height:1.2em">Build</span>
+              <span class="pw" style="display:block;height:1.2em;line-height:1.2em">Think</span>
+            </span>
+          </span>
+        </span></span>
+        <span class="w"><span class="wi">together.</span></span>
+      </div>
+    </div>
+    <div id="avWrap" class="abs" style="left:589px;top:700px;width:741px;height:143px">
+    </div>
+  </div></section>
+
+  <!-- ============ S3: WORKSPACE (real footage) ============ -->
+  <section class="scene" id="s3"><div class="cam" id="s3cam" style="perspective:2400px">
+    <div class="glow" id="g3" style="left:410px;top:300px;background:#a9d0fb"></div>
+    <div id="s3head" class="h1 h-m center abs" style="left:0;right:0;top:80px">One workspace. Every team.</div>
+    <div id="s3push" class="abs" style="inset:0;transform-origin:50% 40%">
+      <div class="win" id="s3win" style="left:210px;top:232px;width:1500px;height:981px;transform-origin:50% 0%">
+        <div class="bar"><i></i><i></i><i></i><div class="crumb">Ramp HQ</div><div class="right">Share ☆ ···</div></div>
+        <img id="seqBoard" style="display:block;width:1500px;height:937px" alt="">
+      </div>
+      <div class="chip" id="ch1" style="left:86px;top:430px"><span class="emoji">📄</span>Docs</div>
+      <div class="chip" id="ch2" style="left:1596px;top:372px"><span class="emoji">📚</span>Wikis</div>
+      <div class="chip" id="ch3" style="left:60px;top:716px"><span class="emoji">🎯</span>Projects</div>
+      <div class="chip" id="ch4" style="left:1588px;top:664px"><span class="emoji">🤖</span>Agents</div>
+    </div>
+  </div></section>
+
+  <!-- ============ S4: DOCS ============ -->
+  <section class="scene" id="s4"><div class="cam" id="s4cam">
+    <div class="glow" id="g4" style="left:900px;top:0px;background:#fbe3b6"></div>
+    <div class="abs" style="left:120px;top:300px;width:700px">
+      <div class="eyebrow" id="s4eb"><span class="emoji">📄</span>Docs</div>
+      <div class="h1 h-m" id="s4h" style="margin-top:34px">Write it down.<br>Together.</div>
+      <p class="sub" id="s4s" style="margin-top:30px;width:600px">Real-time editing, comments, and AI, all on the same page.</p>
+    </div>
+    <div class="win" id="s4win" style="left:860px;top:118px;width:960px;height:850px">
+      <div class="bar"><i></i><i></i><i></i><div class="crumb">Launch / Product launch plan</div>
+        <div class="right">
+          <div style="display:flex">
+            <div class="ini" style="background:#9065b0;width:30px;height:30px;font-size:13px;box-shadow:0 0 0 2px #fbfbfa">FR</div>
+            <img src="../assets/img/av_glasses.png" style="width:30px;height:30px;margin-left:-6px;border-radius:50%;background:#fff;box-shadow:0 0 0 2px #fbfbfa">
+            <div class="ini" style="background:#d9730d;width:30px;height:30px;font-size:13px;margin-left:-6px;box-shadow:0 0 0 2px #fbfbfa">AL</div>
+          </div>Share</div>
+      </div>
+      <div class="doc abs" style="left:0;top:44px;right:0;bottom:0">
+        <div class="emoji" id="d_icon" style="font-size:72px;line-height:1;height:80px">🚀</div>
+        <div class="title" id="d_title" style="margin-top:22px"><span class="txt"></span><span class="caret"></span></div>
+        <div class="p" id="d_p" style="margin-top:14px">Everything we need to ship v2: goals, owners, and dates.</div>
+        <div style="font-size:30px;font-weight:700;margin-top:34px;letter-spacing:-0.02em" id="d_h2">Launch checklist</div>
+        <div id="d_slash" class="p" style="margin-top:12px;height:46px;line-height:46px;color:#37352f"><span class="txt"></span><span class="caret"></span><span class="ph" style="color:#b4b2ad;margin-left:6px">Filter…</span></div>
+        <div id="todos" style="margin-top:-46px">
+          <div class="todo"><div class="box"><div class="fill"></div><svg><use href="#check"/></svg></div><div class="txt">Finalize launch messaging<div class="strike"></div></div></div>
+          <div class="todo"><div class="box"><div class="fill"></div><svg><use href="#check"/></svg></div><div class="txt">Record the demo video<div class="strike"></div></div></div>
+          <div class="todo"><div class="box"><div class="fill"></div><svg><use href="#check"/></svg></div><div class="txt">Roll out to all workspaces<div class="strike"></div></div></div>
+        </div>
+      </div>
+      <div class="slash" id="slash" style="left:78px;top:520px">
+        <div class="hd">Basic blocks</div>
+        <div style="position:relative">
+          <div class="hl" id="slhl"></div>
+          <div class="it"><div class="ic">Aa</div>Text</div>
+          <div class="it"><div class="ic">H1</div>Heading 1</div>
+          <div class="it"><div class="ic"><svg width="22" height="22" viewBox="0 0 22 22"><rect x="2" y="2" width="18" height="18" rx="4" fill="#2383e2"/><path d="M6 11.5 L9.5 15 L16 7.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>To-do list</div>
+          <div class="it"><div class="ic"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="#37352f" stroke-width="2"><rect x="2" y="3" width="18" height="16" rx="2"/><path d="M2 9h18M9 9v10"/></svg></div>Table</div>
+        </div>
+      </div>
+      <svg class="cursor" id="d_cur" style="fill:#111"><use href="#arrow"/></svg>
+      <div class="mpcursor" id="faye"><svg style="fill:#9065b0"><use href="#arrow"/></svg><div class="name" style="background:#9065b0">Faye</div></div>
+    </div>
+    <div class="comment" id="cmt" style="left:1404px;top:640px">
+      <div class="who"><img src="../assets/img/av_glasses.png">Mirra <span>just now</span></div>
+      <div class="msg">Love this. Can we ship it Friday? <span class="emoji">🚀</span></div>
+      <div class="react"><span class="emoji">👍</span>3</div>
+    </div>
+  </div></section>
+
+  <!-- ============ S5: ASK / FIND ============ -->
+  <section class="scene" id="s5"><div class="cam" id="s5cam">
+    <div class="glow" id="g5" style="left:410px;top:-200px;background:#d7cdfa"></div>
+    <div class="h1 h-l center abs" id="s5h" style="left:0;right:0;top:84px">Find answers. Instantly.</div>
+    <p class="sub center abs" id="s5s" style="left:0;right:0;top:206px">Notion AI searches your workspace and connected apps, with citations.</p>
+    <div class="ask" id="ask" style="left:400px;top:300px;width:1120px;height:170px">
+      <div class="q"><span class="txt"></span><span class="caret"></span><span class="ph">Ask, search, or make anything…</span></div>
+      <div class="tools"><span>@ Add context</span><span>◎ All sources</span></div>
+      <div class="send" id="send" style="left:1034px;top:88px"><svg width="26" height="26" viewBox="0 0 26 26"><path d="M13 21V6M6.5 11.5 13 5l6.5 6.5" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    </div>
+    <div class="win" id="ans" style="left:400px;top:500px;width:1120px;height:430px;border-radius:24px">
+      <div class="abs" style="left:40px;top:30px;display:flex;align-items:center;gap:14px">
+        <span class="shimmer" id="thinking" style="font-size:22px;font-weight:600">Searching 3 sources…</span>
+      </div>
+      <div class="abs" id="srcs" style="left:40px;top:72px;display:flex;gap:12px">
+        <div class="src"><img src="../assets/logos/notion_mark_current.svg">Notion <b>12</b></div>
+        <div class="src"><img src="../assets/logos/icon_slack.png">Slack <b>8</b></div>
+        <div class="src"><img src="../assets/logos/gdrive.svg">Google Drive <b>3</b></div>
+      </div>
+      <div class="answer" id="answer" style="left:40px;top:146px;width:1040px">
+        <div class="row">Based on Q2 results and team plans, three bets stand out:</div>
+        <div class="row"><b style="color:#111">1.</b> Expand enterprise sales in EMEA<span class="cite" id="cite1">1</span></div>
+        <div class="row"><b style="color:#111">2.</b> Rebuild self-serve onboarding<span class="cite">2</span></div>
+        <div class="row"><b style="color:#111">3.</b> Bundle AI into the Business plan<span class="cite">3</span></div>
+      </div>
+      <svg class="cursor" id="a_cur" style="fill:#111"><use href="#arrow"/></svg>
+    </div>
+    <div class="pop" id="citepop" style="left:950px;top:792px">
+      <b><img src="../assets/logos/notion_mark_current.svg" style="width:24px">Q2 Board Review</b>
+      Company OS · “EMEA pipeline grew 2.1× quarter over quarter…”
+    </div>
+  </div></section>
+
+  <!-- ============ S6: PROJECTS ============ -->
+  <section class="scene" id="s6"><div class="cam" id="s6cam">
+    <div class="glow" id="g6" style="left:700px;top:100px;background:#cdebd6"></div>
+    <div class="abs" style="left:120px;top:330px;width:600px">
+      <div class="eyebrow" id="s6eb"><span class="emoji">🎯</span>Projects</div>
+      <div class="h1 h-m" id="s6h" style="margin-top:34px">Track every<br>project.</div>
+      <p class="sub" id="s6s" style="margin-top:30px;width:560px">Table, board, timeline. Same data, one click apart.</p>
+    </div>
+    <div class="win" id="s6win" style="left:760px;top:110px;width:1060px;height:860px">
+      <div class="bar"><i></i><i></i><i></i><div class="crumb">Product / Roadmap</div></div>
+      <div class="abs" style="left:0;top:44px;right:0;bottom:0">
+        <div class="dbhead"><span class="emoji" style="font-size:46px">🚙</span><span class="t">Product roadmap</span></div>
+        <div class="tabs">
+          <div class="tab" id="tab0"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="16" height="14" rx="2"/><path d="M2 8h16M8 8v9"/></svg>Table</div>
+          <div class="tab" id="tab1"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="4.5" height="14" rx="1.5"/><rect x="8" y="3" width="4.5" height="9" rx="1.5"/><rect x="14" y="3" width="4" height="11" rx="1.5"/></svg>Board</div>
+          <div class="tab" id="tab2"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5h8M7 10h10M4 15h7"/></svg>Timeline</div>
+        </div>
+        <div class="tabline" id="tabline"></div>
+        <div class="abs" style="left:64px;right:64px;top:184px;height:1px;background:rgba(55,53,47,.09)"></div>
+        <div class="dbarea" id="dbarea">
+          <div id="hdrTable" class="abs" style="left:0;top:0;right:0;height:44px">
+            <div class="colh" style="left:14px;top:10px">Aa&nbsp; Name</div>
+            <div class="colh" style="left:400px;top:10px">◌&nbsp; Status</div>
+            <div class="colh" style="left:620px;top:10px">☺&nbsp; Assignee</div>
+            <div class="colh" style="left:780px;top:10px">▤&nbsp; Due</div>
+            <div class="abs" style="left:0;right:0;bottom:0;height:1px;background:rgba(55,53,47,.09)"></div>
+          </div>
+          <div id="hdrBoard" class="abs" style="left:0;top:0;right:0;height:44px">
+            <div class="colh" style="left:0;top:6px"><span class="tag gray">Not started</span> 1</div>
+            <div class="colh" style="left:316px;top:6px"><span class="tag blue">In progress</span> 2</div>
+            <div class="colh" style="left:632px;top:6px"><span class="tag green">Done</span> 2</div>
+          </div>
+          <div id="hdrTime" class="tlgrid"></div>
+          <div id="today" class="abs" style="top:30px;width:2px;bottom:20px;background:#eb5757;transform-origin:top"><div style="position:absolute;left:-6px;top:-6px;width:14px;height:14px;border-radius:50%;background:#eb5757"></div></div>
+          <div id="items"></div>
+        </div>
+      </div>
+      <svg class="cursor" id="p_cur" style="fill:#111"><use href="#arrow"/></svg>
+    </div>
+  </div></section>
+
+  <!-- ============ S7: AGENTS (real footage) ============ -->
+  <section class="scene" id="s7"><div class="cam" id="s7cam">
+    <div class="h1 h-l center abs" id="s7h" style="left:0;right:0;top:70px">Agents that do the busywork.</div>
+    <div id="s7win" class="abs" style="left:325px;top:244px;width:1270px;height:794px;border-radius:24px;overflow:hidden;box-shadow:0 0 0 1px rgba(15,15,15,.06),0 40px 90px -30px rgba(120,80,0,.45)">
+      <img id="seqAgent" style="display:block;width:1270px;height:794px" alt="">
+    </div>
+    <div class="chip" id="s7chip" style="left:150px;top:320px"><span class="emoji">🤖</span>Notion Agent</div>
+    <div class="chip" id="s7chip2" style="left:1420px;top:860px"><span class="emoji">⚡</span>Done in seconds</div>
+  </div></section>
+
+  <!-- ============ S8: MONTAGE ============ -->
+  <section class="scene" id="s8"><div class="cam" id="s8cam" style="perspective:2000px">
+    <div class="h1 h-l center abs" id="s8h" style="left:0;right:0;top:140px">Plus everything in between.</div>
+    <div class="mcard" id="m1" style="left:110px;top:390px">
+      <div class="art" style="background:#fff url(../assets/img/cal_timedrag.png) 40% 30%/680px auto no-repeat"></div>
+      <div class="lbl"><span class="emoji">📅</span>Notion Calendar</div>
+    </div>
+    <div class="mcard" id="m2" style="left:690px;top:390px">
+      <div class="art" style="background:#fff">
+        <div style="padding:22px 26px 14px;font-size:24px;font-weight:700;display:flex;justify-content:space-between">Inbox <span style="color:#a5a29a;font-weight:500;font-size:18px">Auto-labeled</span></div>
+        <div class="mail-row"><b>Stripe</b><span class="s">Your payout is on the way</span><span class="tag green plain">Finance</span></div>
+        <div class="mail-row"><b>Sam Park</b><span class="s">Launch timeline, v2</span><span class="tag blue plain">Launch</span></div>
+        <div class="mail-row"><b>Figma</b><span class="s">3 new comments on Hero</span><span class="tag plain" style="background:#e8deee;color:#6940a5">Design</span></div>
+        <div class="mail-row"><b>Lena Ortiz</b><span class="s">Offer letter: signed!</span><span class="tag plain" style="background:#fdecc8;color:#8a5a00">Hiring</span></div>
+        <div class="mail-row"><b>GitHub</b><span class="s">PR #482 approved</span><span class="tag gray plain">Eng</span></div>
+      </div>
+      <div class="lbl"><span class="emoji">✉️</span>Notion Mail</div>
+    </div>
+    <div class="mcard" id="m3" style="left:1270px;top:390px">
+      <div class="art" style="background:#fff;padding:30px 26px">
+        <img src="../assets/img/mini_aimn.png" style="width:488px;display:block;border-radius:12px;box-shadow:0 0 0 1px rgba(15,15,15,.07)">
+        <div style="font-size:24px;font-weight:700;margin:26px 0 10px">Summary</div>
+        <div style="font-size:19px;color:#37352f;line-height:1.75">
+          • Design review approved the new flow<br>• Ship beta to 10% on Monday<br>• <span style="color:#2383e2;font-weight:600">@Faye</span> owns the rollout checklist
+        </div>
+      </div>
+      <div class="lbl"><span class="emoji">🎙️</span>AI Meeting Notes</div>
+    </div>
+  </div></section>
+
+  <!-- ============ S9: PROOF ============ -->
+  <section class="scene" id="s9"><div class="cam" id="s9cam">
+    <div class="h1 h-m center abs" id="s9h" style="left:0;right:0;top:110px">Trusted by teams that ship.</div>
+    <div class="stat" id="st1" style="left:160px;width:800px;top:270px"><div class="n" id="n1">0M</div><div class="l">users in over 50 countries</div></div>
+    <div class="abs" id="stdiv" style="left:959px;top:300px;width:2px;height:230px;background:rgba(55,53,47,.12)"></div>
+    <div class="stat" id="st2" style="left:960px;width:800px;top:270px"><div class="n" id="n2">0%</div><div class="l">of the Fortune 100</div></div>
+    <div class="marq" id="mq1" style="top:690px"><div class="track" id="tr1"></div></div>
+    <div class="marq" id="mq2" style="top:812px"><div class="track" id="tr2"></div></div>
+  </div></section>
+
+  <!-- ============ S10: CTA ============ -->
+  <section class="scene" id="s10"><div class="cam" id="s10cam">
+    <div id="ring10" class="abs" style="left:810px;top:180px;width:300px;height:300px;border-radius:50%;border:4px solid rgba(25,25,25,.16)"></div>
+    <div id="lock10" class="abs" style="left:0;right:0;top:262px;height:136px;display:flex;justify-content:center;align-items:center">
+      <img id="mark10" src="../assets/logos/notion_mark_current.svg" style="width:128px;height:132px;display:block">
+      <div id="let10" style="width:0;overflow:hidden;height:84px;display:flex;align-items:center"><img src="../assets/logos/notion_letters.svg" style="height:70px;width:264px;margin-left:28px;flex:none"></div>
+    </div>
+    <div class="h1 h-m center abs" id="s10h" style="left:0;right:0;top:460px">The AI workspace that works for you.</div>
+    <div class="btn" id="cta" style="left:960px;top:640px">Get Notion free</div>
+    <div class="abs center" id="url" style="left:0;right:0;top:790px;font-size:30px;color:#787774;font-weight:550;letter-spacing:-0.01em">notion.com</div>
+    <svg class="cursor" id="c_cur" style="fill:#111"><use href="#arrow"/></svg>
+  </div></section>
+</div>
+
+<script src="../node_modules/gsap/dist/gsap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

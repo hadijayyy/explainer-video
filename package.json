@@ -1,0 +1,14 @@
+{
+  "name": "notion-launch-video",
+  "private": true,
+  "description": "Motion-graphics product launch video for Notion (unofficial concept), built with HTML/GSAP and rendered frame-by-frame with Playwright + FFmpeg.",
+  "scripts": {
+    "frames": "bash render/extract_frames.sh",
+    "audio": "python3 audio/make_audio.py",
+    "render": "node render/render.js",
+    "preview": "node render/render.js --preview"
+  },
+  "dependencies": {
+    "gsap": "3.12.5"
+  }
+}
