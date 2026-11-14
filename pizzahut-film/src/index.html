@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Pizza Hut Indonesia: Brand Anthem (concept)</title>
+<link rel="stylesheet" href="styles.css">
+<script src="../node_modules/gsap/dist/gsap.min.js"></script>
+<script src="map.js"></script>
+<script src="logo.js"></script>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- S1 · COLD OPEN: macro cheese pulls -->
+    <section class="scene" id="s1">
+      <div class="shot" id="s1a"><div class="cam"></div></div>
+      <div class="shot" id="s1b"><div class="cam"></div></div>
+      <div class="shot" id="s1c"><div class="cam"></div></div>
+      <div class="grade warm"></div>
+      <p class="line low" id="s1t1">Setiap keluarga punya satu meja favorit.</p>
+      <p class="line low" id="s1t2">Bagi jutaan keluarga Indonesia,</p>
+      <p class="line low big" id="s1t3">meja itu beratap <em>merah.</em></p>
+    </section>
+
+    <!-- S2 · JAKARTA 1984: old-film marquee -->
+    <section class="scene oldfilm" id="s2">
+      <div class="s2bg"></div>
+      <div id="s2cam">
+        <div class="year84" id="y84"><span class="kick">Jakarta</span><span class="num">1984</span></div>
+        <div class="marquee" id="marquee">
+          <div class="mq-crown">DJAKARTA THEATER</div>
+          <div class="mq-body">
+            <div class="bulbs" id="bulbs"></div>
+            <div class="mq-board">
+              <div class="mq-row r1">PIZZA HUT</div>
+              <div class="mq-row r2">RESTORAN PIZZA HUT PERTAMA DI INDONESIA</div>
+              <div class="mq-row r3">&#9733; SEKARANG BUKA &#9733;</div>
+            </div>
+          </div>
+          <div class="mq-glow"></div>
+        </div>
+      </div>
+      <p class="line low" id="s2t1">Semuanya dimulai dari satu restoran,</p>
+      <p class="line low" id="s2t2">di gedung Djakarta Theater.</p>
+      <div class="filmfx"></div>
+    </section>
+
+    <!-- S3 · TIME TRAVEL: film strip + odometer -->
+    <section class="scene" id="s3">
+      <div class="strip" id="strip"></div>
+      <div class="s3shade"></div>
+      <div class="odo" id="odo"></div>
+      <div class="odo-kick" id="odokick">LEBIH DARI 40 TAHUN BERSAMA INDONESIA</div>
+      <p class="line low" id="s3t1">Satu restoran itu tumbuh</p>
+      <p class="line low" id="s3t2">menjadi bagian dari jutaan cerita.</p>
+    </section>
+
+    <!-- S4 · MAP: Sabang to Merauke -->
+    <section class="scene" id="s4">
+      <div class="s4bg"></div>
+      <div id="s4cam">
+        <canvas id="mapc" width="1920" height="1080"></canvas>
+        <div id="pins"></div>
+      </div>
+      <h2 class="serif-head" id="s4h">Dari Sabang sampai Merauke.</h2>
+      <div class="stats" id="stats">
+        <div class="stat"><div class="sv" data-to="36">0</div><div class="sl">Provinsi</div></div>
+        <div class="stat"><div class="sv" data-to="150" data-plus="1">0</div><div class="sl">Kota &amp; Kabupaten</div></div>
+        <div class="stat"><div class="sv" data-to="570" data-plus="1">0</div><div class="sl">Gerai</div></div>
+      </div>
+    </section>
+
+    <!-- S5 · THE FOOD + THE FORMATS -->
+    <section class="scene" id="s5">
+      <div class="shot" id="s5a"><div class="cam"></div></div>
+      <div class="grade warm"></div>
+      <h2 class="serif-head" id="s5t1">Rasa yang tumbuh bersama Indonesia.</h2>
+      <div class="trip" id="trip">
+        <figure class="card"><img src="../assets/img/pan_pizza.jpg"><figcaption><b>SIGNATURE PIZZA</b><span>Sejak loyang pertama</span></figcaption></figure>
+        <figure class="card"><img src="../assets/img/pasta_trio.jpg"><figcaption><b>PASTA &amp; RICE</b><span>Hangat dari oven</span></figcaption></figure>
+        <figure class="card"><img src="../assets/img/appetizer.jpg"><figcaption><b>APPETIZERS</b><span>Untuk dibagi bersama</span></figcaption></figure>
+      </div>
+      <div class="shot" id="s5m"><div class="cam"></div></div>
+      <div class="melts-label" id="meltslabel"><span class="k">INOVASI</span><span class="n">MELTS</span><span class="d">Cheesy · Crispy · Loaded</span></div>
+      <div class="formats" id="formats">
+        <div class="fmt" id="fmt1"><div class="fimg"><img src="../assets/img/phr_interior.jpg"></div><div class="ft"><span class="fk">01</span><b>DINE-IN</b><span>Pizza Hut Restaurant &amp; Ristorante</span></div></div>
+        <div class="fmt" id="fmt2"><div class="fimg"><img src="../assets/img/phd_truck.jpg"></div><div class="ft"><span class="fk">02</span><b>DELIVERY</b><span>PHD &amp; aplikasi Pizza Hut</span></div></div>
+        <div class="fmt" id="fmt3"><div class="fimg"><img src="../assets/img/event_group.jpg"></div><div class="ft"><span class="fk">03</span><b>PARTY</b><span>Ulang tahun, pernikahan, sampai food truck</span></div></div>
+      </div>
+      <h2 class="serif-head top" id="s5h">Satu nama. Banyak cara untuk berkumpul.</h2>
+    </section>
+
+    <!-- S6 · PEOPLE: a stack of prints -->
+    <section class="scene" id="s6">
+      <div class="s6bg"></div>
+      <div id="s6cam">
+        <figure class="print" id="p1"><img src="../assets/img/crew_salam.jpg"></figure>
+        <figure class="print" id="p2"><img src="../assets/img/farmers.jpg"></figure>
+        <figure class="print" id="p3"><img src="../assets/img/female_outlet.png"></figure>
+        <figure class="print" id="p4"><img src="../assets/img/junior_class.jpg"></figure>
+      </div>
+      <p class="line low" id="s6t1">Di balik setiap loyang, ada tangan-tangan yang peduli.</p>
+      <div class="fact" id="f2"><span class="fv">60%</span><span class="fl">paprika &amp; tomat kami dipasok<br>±100 kelompok petani lokal</span></div>
+      <div class="fact" id="f3"><span class="fv">100%</span><span class="fl">dikelola perempuan: Female Outlet,<br>yang pertama di Indonesia</span></div>
+      <div class="fact" id="f4"><span class="fv">Junior</span><span class="fl">Pizza Maker Junior: generasi berikutnya<br>belajar membuat, dan berbagi</span></div>
+    </section>
+
+    <!-- S7 · TOGETHER: mosaic becomes the roof -->
+    <section class="scene" id="s7">
+      <div class="mosaic" id="mosaic"></div>
+      <div class="grade" style="background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,.78) 92%)"></div>
+      <div class="roofwrap" id="roofwrap"><div class="roofmosaic" id="roofmosaic"></div><div class="roofred" id="roofred"></div></div>
+      <p class="line low" id="s7t1">Karena momen terbaik</p>
+      <p class="line low big" id="s7t2">selalu dinikmati <em>bersama.</em></p>
+    </section>
+
+    <!-- S8 · REVEAL -->
+    <section class="scene" id="s8">
+      <div class="s8bg"></div>
+      <div class="logo" id="logo"></div>
+      <h1 class="tagline" id="tag">Luberkan Kebersamaan.</h1>
+      <div class="since" id="since"><span>SEJAK 1984</span><i></i><span>UNTUK INDONESIA</span></div>
+      <div class="url" id="url">pizzahut.co.id</div>
+    </section>
+
+  </div>
+  <canvas id="fx" width="1920" height="1080"></canvas>
+  <div id="leak"></div>
+  <div id="vignette"></div>
+  <canvas id="grain" width="960" height="540"></canvas>
+  <div class="lb" id="lbt"></div><div class="lb" id="lbb"></div>
+  <div id="flash"></div>
+  <div id="fade"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
