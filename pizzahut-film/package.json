@@ -1,0 +1,19 @@
+{
+  "name": "pizzahut-indonesia-anthem",
+  "private": true,
+  "description": "Cinematic brand-anthem company profile film for Pizza Hut Indonesia (unsolicited concept). HTML/GSAP scenes rendered frame-by-frame with Playwright + FFmpeg, soundtrack synthesized in numpy.",
+  "scripts": {
+    "map": "node tools/build_map.js",
+    "render": "node render/render.js",
+    "audio": "python3 audio/make_audio.py",
+    "mux": "bash render/mux.sh"
+  },
+  "dependencies": {
+    "gsap": "3.12.5",
+    "@fontsource/instrument-serif": "*",
+    "@fontsource/oswald": "*",
+    "@fontsource/inter": "*",
+    "world-atlas": "2.0.2",
+    "topojson-client": "3.1.0"
+  }
+}
